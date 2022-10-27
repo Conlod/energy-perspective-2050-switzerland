@@ -1,47 +1,25 @@
 {
     "profile": "data-package",
-    "name": "energy-perspective-2050-switzerland",
-    "title": "Energy Perspective 2050 + scenario implementation",
-    "description": "Implementation of BAU and ZERO Basis scenarios from Energy Perspective 2050 +",
-    "version": "0.0.4",
+    "name": "heat_Germany_20_25_30",
+    "title": "Heat for Germany + scenario implementation",
+    "description": "",
+    "version": "0.0.1",
     "contributors":[{
-    "title": "Romain Sacchi",
-    "email": "r_s@me.com"
+    "title": "Concetta Lodato",
+    "email": "conlod@dtu.dk"
     }],
     "dependencies": {
-        "premise": ">=1.2.5"
+        "premise": ">=1.3.5"
     },
     "ecoinvent": {
         "version": "3.8",
         "system model": "cut-off"
     },
     "scenarios": {
-        "Business As Usual": [
-            {
-                "model": "image",
-                "pathway": "SSP2-Base"
-            },
+        "Dynamic energy": [
             {
                 "model": "remind",
-                "pathway": "SSP2-Base"
-            }
-        ],
-        "ZERO Basis": [
-            {
-                "model": "image",
-                "pathway": "SSP2-RCP26"
-            },
-            {
-                "model": "image",
-                "pathway": "SSP2-RCP19"
-            },
-            {
-                "model": "remind",
-                "pathway": "SSP2-PkBudg1150"
-            },
-            {
-                "model": "remind",
-                "pathway": "SSP2-PkBudg500"
+                "pathway": "SSP2-NPi"
             }
         ]
     },
@@ -104,52 +82,7 @@
                         "name": "2030",
                         "type": "number",
                         "format": "default"
-                    },
-                    {
-                        "name": "2035",
-                        "type": "number",
-                        "format": "default"
-                    },
-                    {
-                        "name": "2040",
-                        "type": "number",
-                        "format": "default"
-                    },
-                    {
-                        "name": "2045",
-                        "type": "number",
-                        "format": "default"
-                    },
-                    {
-                        "name": "2050",
-                        "type": "number",
-                        "format": "default"
-                    },
-                    {
-                        "name": "2060",
-                        "type": "number",
-                        "format": "default"
-                    },
-                    {
-                        "name": "2070",
-                        "type": "number",
-                        "format": "default"
-                    },
-                    {
-                        "name": "2080",
-                        "type": "number",
-                        "format": "default"
-                    },
-                    {
-                        "name": "2090",
-                        "type": "number",
-                        "format": "default"
-                    },
-                    {
-                        "name": "2100",
-                        "type": "number",
-                        "format": "default"
-                    }
+                    }                              
                 ],
                 "missingValues": [
                     ""
@@ -157,7 +90,7 @@
             }
         },
         {
-            "path": "inventories/lci-EP2050.csv",
+            "path": "inventories/lci-plastics.csv",
             "profile": "data-resource",
             "name": "inventories",
             "format": "csv",
