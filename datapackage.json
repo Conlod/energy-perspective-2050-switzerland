@@ -1,6 +1,6 @@
 {
     "profile": "data-package",
-    "name": "heat_Germany_20_25_30",
+    "name": "heat_germany_20_25_30",
     "title": "Heat for Germany + scenario implementation",
     "description": "",
     "version": "0.0.1",
@@ -19,7 +19,7 @@
         "Dynamic energy": [
             {
                 "model": "remind",
-                "pathway": "SSP2-NPi"
+                "pathway": "SSP2-Npi"
             }
         ]
     },
