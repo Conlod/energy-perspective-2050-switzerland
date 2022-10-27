@@ -106,7 +106,7 @@ production pathways:
     production volume:
       variable: Production|Electricity|Medium to high
     ecoinvent alias:
-      name: market for electricity, high voltage, EP2050
+      name: market for electricity, high voltage, DE_20_25_30
       reference product: electricity, high voltage
       exists in original database: False
       new dataset: True
@@ -115,7 +115,7 @@ production pathways:
     production volume:
       variable: Production|Electricity|Low to medium
     ecoinvent alias:
-      name: market for electricity, medium voltage, EP2050
+      name: market for electricity, medium voltage, DE_20_25_30
       reference product: electricity, medium voltage
       exists in original database: False
       new dataset: True
@@ -225,7 +225,7 @@ production pathways:
   
 markets:
 
-  - name: market for electricity, high voltage, DE20_25_30
+  - name: market for electricity, high voltage, DE_20_25_30
     reference product: electricity, high voltage
     unit: kilowatt hour
     includes:
@@ -310,7 +310,7 @@ markets:
     except regions:
       - World
 
-  - name: market for electricity, low voltage, DE20_25_30
+  - name: market for electricity, low voltage, DE_20_25_30
     reference product: electricity, low voltage
     unit: kilowatt hour
     includes:
@@ -344,7 +344,7 @@ markets:
     except regions:
       - World
 
-  - name: market for process heat, DE20_25_30
+  - name: market for process heat, DE_20_25_30
     reference product: process heat
     unit: megajoule
     includes:
