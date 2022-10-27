@@ -1,28 +1,28 @@
 ,pathway,scenario,region,variables,unit,2020,2025,2030
-image,SSP2-NPi,Dynamic energy,DE,Production|Electricity|Run-of-river hydro,PJ/year,0,0,0
-image,SSP2-NPi,Dynamic energy,DE,Production|Electricity|Reservoir,PJ/year,0.031764949,0.031764949,0.031764949
-image,SSP2-NPi,Dynamic energy,DE,Production|Electricity|Nuclear|Boiling water reactor,PJ/year,0,0,0
-image,SSP2-NPi,Dynamic energy,DE,Production|Electricity|Nuclear|Pressure water reactor,PJ/year,0.140811088,0.140811088,0.140811088
-image,SSP2-NPi,Dynamic energy,DE,Production|Electricity|Conventional|Waste-to-Energy,PJ/year,0,0,0
-image,SSP2-NPi,Dynamic energy,DE,Production|Electricity|Conventional|Other,PJ/year,0,0,0
-image,SSP2-NPi,Dynamic energy,DE,Production|Electricity|Renewable|Photovoltaic,PJ/year,0.087157395,0.087157395,0.087157395
-image,SSP2-NPi,Dynamic energy,DE,Production|Electricity|Renewable|Wind turbines|Onshore,PJ/year,0.048570139,0.048570139,0.048570139
-image,SSP2-NPi,Dynamic energy,DE,Production|Electricity|Renewable|Wind turbines|Offshore,PJ/year,0.179522568,0.179522568,0.179522568
-image,SSP2-NPi,Dynamic energy,DE,Production|Electricity|Renewable|Geothermal,PJ/year,0,0,0
-image,SSP2-NPi,Dynamic energy,DE,Production|Electricity|Renewable|Biomass,PJ/year,0,0,0
-image,SSP2-NPi,Dynamic energy,DE,Production|Electricity|Renewable|Biogas,PJ/year,0.084471998,0.084471998,0.084471998
-image,SSP2-NPi,Dynamic energy,DE,Production|Electricity|Medium to high,PJ/year,0,0,0
-image,SSP2-NPi,Dynamic energy,DE,Production|Electricity|Low to medium,PJ/year,0,0,0
-image,SSP2-NPi,Dynamic energy,DE,Production|Electricity|Import,PJ/year,0,0,0
-image,SSP2-NPi,Dynamic energy,DE,Production|Electricity|Lignite,PJ/year,0.209630087,0.209630087,0.209630087
-image,SSP2-NPi,Dynamic energy,DE,Production|Electricity|Hard_coal,PJ/year,0.108177983,0.108177983,0.108177983
-image,SSP2-NPi,Dynamic energy,DE,Production|Electricity|Natural_gas_CHP,PJ/year,0.109779638,0.109779638,0.109779638
-image,SSP2-NPi,Dynamic energy,DE,Transmission losses|Electricity|Medium to high,PJ/year,1,0.935,0.935
-image,SSP2-NPi,Dynamic energy,DE,Distribution losses|Electricity|Low to medium,PJ/year,1,0.973,0.973
-image,SSP2-NPi,Dynamic energy,DE,Production|Heat|Gas,%,0.422087518,0.385995855,0.320872205
-image,SSP2-NPi,Dynamic energy,DE,Production|Heat|Oil,%,0.060647262,0.056852653,0.044305455
-image,SSP2-NPi,Dynamic energy,DE,Production|Heat|Coal,%,0.065040995,0.055692619,0.043096047
-image,SSP2-NPi,Dynamic energy,DE,Production|Heat|Electricity,%,0.247671855,0.271756459,0.297812314
-image,SSP2-NPi,Dynamic energy,DE,Production|Heat|CHP,%,0.132397041,0.138339107,0.154527949
-image,SSP2-NPi,Dynamic energy,DE,Production|Heat|Biomass,%,0.072155322,0.09027664,0.133211006
-image,SSP2-NPi,Dynamic energy,DE,Production|Heat|Hydrogen,%,5.83E-09,0.001086666,0.006175025
+image,SSP2-Npi,Dynamic energy,DE,Production|Electricity|Run-of-river hydro,PJ/year,0,0,0
+image,SSP2-Npi,Dynamic energy,DE,Production|Electricity|Reservoir,PJ/year,0.031764949,0.031764949,0.031764949
+image,SSP2-Npi,Dynamic energy,DE,Production|Electricity|Nuclear|Boiling water reactor,PJ/year,0,0,0
+image,SSP2-Npi,Dynamic energy,DE,Production|Electricity|Nuclear|Pressure water reactor,PJ/year,0.140811088,0.140811088,0.140811088
+image,SSP2-Npi,Dynamic energy,DE,Production|Electricity|Conventional|Waste-to-Energy,PJ/year,0,0,0
+image,SSP2-Npi,Dynamic energy,DE,Production|Electricity|Conventional|Other,PJ/year,0,0,0
+image,SSP2-Npi,Dynamic energy,DE,Production|Electricity|Renewable|Photovoltaic,PJ/year,0.087157395,0.087157395,0.087157395
+image,SSP2-Npi,Dynamic energy,DE,Production|Electricity|Renewable|Wind turbines|Onshore,PJ/year,0.048570139,0.048570139,0.048570139
+image,SSP2-Npi,Dynamic energy,DE,Production|Electricity|Renewable|Wind turbines|Offshore,PJ/year,0.179522568,0.179522568,0.179522568
+image,SSP2-Npi,Dynamic energy,DE,Production|Electricity|Renewable|Geothermal,PJ/year,0,0,0
+image,SSP2-Npi,Dynamic energy,DE,Production|Electricity|Renewable|Biomass,PJ/year,0,0,0
+image,SSP2-Npi,Dynamic energy,DE,Production|Electricity|Renewable|Biogas,PJ/year,0.084471998,0.084471998,0.084471998
+image,SSP2-Npi,Dynamic energy,DE,Production|Electricity|Medium to high,PJ/year,0,0,0
+image,SSP2-Npi,Dynamic energy,DE,Production|Electricity|Low to medium,PJ/year,0,0,0
+image,SSP2-Npi,Dynamic energy,DE,Production|Electricity|Import,PJ/year,0,0,0
+image,SSP2-Npi,Dynamic energy,DE,Production|Electricity|Lignite,PJ/year,0.209630087,0.209630087,0.209630087
+image,SSP2-Npi,Dynamic energy,DE,Production|Electricity|Hard_coal,PJ/year,0.108177983,0.108177983,0.108177983
+image,SSP2-Npi,Dynamic energy,DE,Production|Electricity|Natural_gas_CHP,PJ/year,0.109779638,0.109779638,0.109779638
+image,SSP2-Npi,Dynamic energy,DE,Transmission losses|Electricity|Medium to high,PJ/year,1,0.935,0.935
+image,SSP2-Npi,Dynamic energy,DE,Distribution losses|Electricity|Low to medium,PJ/year,1,0.973,0.973
+image,SSP2-Npi,Dynamic energy,DE,Production|Heat|Gas,%,0.422087518,0.385995855,0.320872205
+image,SSP2-Npi,Dynamic energy,DE,Production|Heat|Oil,%,0.060647262,0.056852653,0.044305455
+image,SSP2-Npi,Dynamic energy,DE,Production|Heat|Coal,%,0.065040995,0.055692619,0.043096047
+image,SSP2-Npi,Dynamic energy,DE,Production|Heat|Electricity,%,0.247671855,0.271756459,0.297812314
+image,SSP2-Npi,Dynamic energy,DE,Production|Heat|CHP,%,0.132397041,0.138339107,0.154527949
+image,SSP2-Npi,Dynamic energy,DE,Production|Heat|Biomass,%,0.072155322,0.09027664,0.133211006
+image,SSP2-Npi,Dynamic energy,DE,Production|Heat|Hydrogen,%,5.83E-09,0.001086666,0.006175025
