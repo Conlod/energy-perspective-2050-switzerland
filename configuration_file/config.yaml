@@ -343,17 +343,17 @@ markets:
     except regions:
       - World
 
-- name: market for process heat, DE20_25_30
-    reference product: process heat
-    unit: megajoule
-    includes:
-      - Hard coal
-      - Oil
-      - Natural gas
-      - Biomass
-      - CHP
-      - Electricity
-      - Hydrogen
+  - name: market for process heat, DE20_25_30
+      reference product: process heat
+      unit: megajoule
+      includes:
+        - Hard coal
+        - Oil
+        - Natural gas
+        - Biomass
+        - CHP
+        - Electricity
+        - Hydrogen
       
 
     except regions:
