@@ -1,30 +1,24 @@
-# energy-perspective-2050-switzerland ![GitHub release (latest by date)](https://img.shields.io/github/v/release/premise-community-scenarios/energy-perspective-2050-switzerland) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6653948.svg)](https://doi.org/10.5281/zenodo.6653948)
+# energy-perspective-2025-2030-germany ![GitHub release (latest by date)](https://img.shields.io/github/v/release/premise-community-scenarios/energy-perspective-2050-switzerland) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6653948.svg)](https://doi.org/10.5281/zenodo.6653948)
 
 
 Description
 -----------
 
-This is a repository containing a scenario that implements the projections of the 
-Energy Perspective 2050+ report for:
+This is a repository containing a scenario that implements the market for energy in Germany and its projections 2025, 2030 report for:
 
 * electricity, 
-* hydrogen, 
-* gas, 
-* and liquid fuels. 
+* heat. 
 
 It is meant to be used in `premise` in addition to a global IAM scenario, to provide 
 refined projections at the country level.
 
 This data package contains all the files necessary for `premise` to implement
-this scenario and create market-specific composition for electricity (including imports from
-neighboring countries), liquid and gaseous fuels (including hydrogen).
+this scenario and create market-specific composition for electricity and heat.
 
 Sourced from publication
 ------------------------
 
-Energy perspectives 2050+\
-Swiss Federal Office for Energy\
-https://www.bfe.admin.ch/bfe/en/home/policy/energy-perspectives-2050-plus.html/
+....
 
 Data validation 
 ---------------
@@ -44,9 +38,9 @@ ecoinvent 3.8 cut-off
 IAM scenario compatibility
 ---------------------------
 
-The following coupling is done between IAM and EP2050+ scenarios:
+Among the following coupling between IAM and DE_20_25_30 scenarios, we selected REMIND SSP2-Npi:
 
-| IAM scenario           | EP2050+ scenario     |
+| IAM scenario           | DE_20_25_30 scenario     |
 |------------------------|----------------------|
 | IMAGE SSP2-Base        | Business As Usual    |
 | IMAGE SSP2-RCP26       | ZERO Basis (default) |
@@ -67,49 +61,27 @@ The following coupling is done between IAM and EP2050+ scenarios:
 | REMIND SSP2-PkBudg500  | ZERO B               |
 | REMIND SSP2-PkBudg500  | ZERO C               |
 
-What does this do?
-------------------
 
-![map electricity markets](assets/map.png)
-
-This external scenario creates markets for Switzerland listed below, according
-to the projections from the Energy Perspectives 2050+ (yellow boundaries in map above).
 
 Electricity
 ***********
 
-* `market for electricity, high voltage, EP2050` (CH)
-* `market for electricity, medium voltage, EP2050` (CH)
-* `market for electricity, medium voltage, EP2050` (CH)
+* `market for electricity, high voltage, DE_20_25_30` (DE)
+* `market for electricity, medium voltage, DE_20_25_30` (DE)
+* `market for electricity, medium voltage, DE_20_25_30` (DE)
 
-These markets are relinked to activities that consume electricity in Switzerland.
+These markets are relinked to activities that consume electricity in Germany.
 
-Additionally, the Swiss markets rely to a varying extent on imports from
-neighboring countries (FR + DE + IT + AT), for which a market is also created 
-(orange boundaries in map above):
-
-* `import from neighboring countries electricity, high voltage` (CH)
 
 That market itself relies on imports from the rest of Europe, which is
 provided by the regional IAM market for European electricity (blue boundaries in map above).
 
-Liquid fuels
-************
-
-* `market for petrol, EP2050` (CH)
-* `market for diesel, EP2050` (CH)
-
-This includes the production of biofuel and synthetic fuel.
-The latter is produced in the neighboring countries, using
-the corresponding markets for hydrogen and electricity.
 
 
-Gaseous fuels
+Heat
 *************
 
-* `market for hydrogen, gaseous, EP2050` (CH)
-* `market for compressed gas, high pressure, EP2050` (CH)
-* `market for compressed gas, low pressure, EP2050` (CH)
+* `market for process heat, DE_20_25_30` (DE)
 
 For hydrogen, this includes the domestic and foreign production, via electrolysis.
 The latter is produced in the neighboring countries, using
@@ -151,12 +123,14 @@ Liquid fuels
 
 | Technologies in EP2050+            | LCI datasets used                                               | Remarks                                                                                                             |
 |------------------------------------|-----------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| Diesel                             | market for diesel, low-sulfur                                   | 
-| Biodiesel                          | Biodiesel, from rapeseed oil, at fuelling station         | Provided by premise. |
-| Synthetic diesel                   | diesel production, synthetic, from Fischer Tropsch process, hydrogen from electrolysis, energy allocation, at fuelling station, EP2050          | Provided by premise. |
-| Petrol                             | market for petrol, low-sulfur                                   |
-| Bioethanol                         | ethanol production from sugar beet                |
-| Synthetic petrol                   | gasoline production, synthetic, from methanol, hydrogen from electrolysis, CO2 from DAC, energy allocation, at fuelling station, EP2050 | Provided by premise. |                                                                                                |
+| Gas                             | heat production, natural gas, at industrial furnace >100kW                                   | 
+| Oil                         | heat production, light fuel oil, at industrial furnace 1MW         
+| Coal                  | heat production, at hard coal industrial furnace 1-10MW |
+| Electricity                             | market for electricity  |  generated by premise in this project                               |
+| CHP                         | ethanol production from sugar beet                |
+| Biomass                   | heat and power co-generation, wood chips, 6667 kW, state-of-the-art 2014 |  
+| Hydrogen                  | heat production, biomethane, at boiler condensing modulating <100kW, modified with hydrogen | generated  by premise. |                                                                                              |
+
 
 
 
@@ -166,12 +140,9 @@ Gaseous fuels
 
 | Technologies in EP2050+ | LCI datasets used                                                                                                                      | Remarks          |
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------------------|------------------|
-| Hydrogen, domestic      | hydrogen production, electrolysis, 25 bar, domestic, EP2050                                                                            | Provided by premise. |
+                                                                         | Provided by premise. |
 | Hydrogen, imported      | hydrogen production, electrolysis, 25 bar, imported, EP2050                                                                            | Provided by premise. |
-| Compressed natural gas  | natural gas, high pressure, at consumer | From 10.13140/RG.2.2.29142.78409.           |
-| Liquefied natural gas   | market for natural gas, liquefied                                                                                                          |
-| Biomethane              | market for biomethane, high pressure                                                                                                          |
-| Synthetic gas           | Methane, synthetic, gaseous, 5 bar, from electrochemical methanation, at fuelling station, EP2050 | Provided by premise. |
+
 
 
 
@@ -190,21 +161,22 @@ How to use it?
     from datapackage import Package
     
     
-    fp = r"https://raw.githubusercontent.com/premise-community-scenarios/energy-perspective-2050-switzerland/main/datapackage.json"
-    ep2050 = Package(fp)
+    fp = r"https://github.com/Conlod/energy-perspective-2050-switzerland/blob/main/datapackage.json"
+    heat = Package(fp)
     
     bw.projects.set_current("your_bw_project")
     
     ndb = NewDatabase(
             scenarios = [
-                {"model":"image", "pathway":"SSP2-Base", "year":2050,},
-                {"model":"image", "pathway":"SSP2-RCP26", "year":2030,},
+                {"model":"remind", "pathway":"SSP2-Npi", "year":2020,},
+                {"model":"remind", "pathway":"SSP2-Npi", "year":2025,},
+                {"model":"remind", "pathway":"SSP2-Npi", "year":2030,},
             ],        
-            source_db="ecoinvent 3.8 cutoff",
+            source_db="ei_3.8_cutoff",
             source_version="3.8",
-            key='xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx',
+            key= 'tUePmX_S5B8ieZkkM7WUU2CnO8SmShwmAeWK9x2rTFo=',
             external_scenarios=[
-                ep2050, # <-- list datapackages here
+                heat, # <-- list datapackage objects here
             ] 
         )
 ```
