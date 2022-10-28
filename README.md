@@ -1,4 +1,4 @@
-# energy-perspective-2025-2030-germany ![GitHub release (latest by date)]
+# energy-perspective-2025-2030-germany
 
 
 Description
