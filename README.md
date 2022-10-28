@@ -1,4 +1,4 @@
-# energy-perspective-2025-2030-germany ![GitHub release (latest by date)](https://img.shields.io/github/v/release/premise-community-scenarios/energy-perspective-2050-switzerland) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6653948.svg)](https://doi.org/10.5281/zenodo.6653948)
+# energy-perspective-2025-2030-germany ![GitHub release (latest by date)]
 
 
 Description
