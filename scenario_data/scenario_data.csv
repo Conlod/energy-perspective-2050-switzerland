@@ -1,22 +1,22 @@
 model,pathway,scenario,region,variables,unit,2020,2025,2030
-remind,SSP2-Npi,Dynamic energy,DE,Production|Electricity|Run-of-river hydro,PJ/year,0,0,0
-remind,SSP2-Npi,Dynamic energy,DE,Production|Electricity|Reservoir,PJ/year,0.031764949,0.031764949,0.031764949
+remind,SSP2-Npi,Dynamic energy,DE,Production|Electricity|Run-of-river hydro,PJ/year,0,0.024501222,0.023756282
+remind,SSP2-Npi,Dynamic energy,DE,Production|Electricity|Reservoir,PJ/year,0.031764949,0.000330443,0.000320205
 remind,SSP2-Npi,Dynamic energy,DE,Production|Electricity|Nuclear|Boiling water reactor,PJ/year,0,0,0
 remind,SSP2-Npi,Dynamic energy,DE,Production|Electricity|Nuclear|Pressure water reactor,PJ/year,0.140811088,0.140811088,0.140811088
 remind,SSP2-Npi,Dynamic energy,DE,Production|Electricity|Conventional|Waste-to-Energy,PJ/year,0,0,0
 remind,SSP2-Npi,Dynamic energy,DE,Production|Electricity|Conventional|Other,PJ/year,0,0,0
-remind,SSP2-Npi,Dynamic energy,DE,Production|Electricity|Renewable|Photovoltaic,PJ/year,0.087157395,0.087157395,0.087157395
-remind,SSP2-Npi,Dynamic energy,DE,Production|Electricity|Renewable|Wind turbines|Onshore,PJ/year,0.048570139,0.048570139,0.048570139
-remind,SSP2-Npi,Dynamic energy,DE,Production|Electricity|Renewable|Wind turbines|Offshore,PJ/year,0.179522568,0.179522568,0.179522568
+remind,SSP2-Npi,Dynamic energy,DE,Production|Electricity|Renewable|Photovoltaic,PJ/year,0.087157395,0.027529989,0.031390906
+remind,SSP2-Npi,Dynamic energy,DE,Production|Electricity|Renewable|Wind turbines|Onshore,PJ/year,0.048570139,0.489401868,0.489480144
+remind,SSP2-Npi,Dynamic energy,DE,Production|Electricity|Renewable|Wind turbines|Offshore,PJ/year,0.179522568,0.018487989,0.030817237
 remind,SSP2-Npi,Dynamic energy,DE,Production|Electricity|Renewable|Geothermal,PJ/year,0,0,0
 remind,SSP2-Npi,Dynamic energy,DE,Production|Electricity|Renewable|Biomass,PJ/year,0,0,0
-remind,SSP2-Npi,Dynamic energy,DE,Production|Electricity|Renewable|Biogas,PJ/year,0.084471998,0.084471998,0.084471998
-remind,SSP2-Npi,Dynamic energy,DE,Production|Electricity|Medium to high,PJ/year,0,0,0
-remind,SSP2-Npi,Dynamic energy,DE,Production|Electricity|Low to medium,PJ/year,0,0,0
+remind,SSP2-Npi,Dynamic energy,DE,Production|Electricity|Renewable|Biogas,PJ/year,0.084471998,0.079010770,0.093194635
+remind,SSP2-Npi,Dynamic energy,DE,Production|Electricity|Medium to high,PJ/year,1,1,1
+remind,SSP2-Npi,Dynamic energy,DE,Production|Electricity|Low to medium,PJ/year,1,1,1
 remind,SSP2-Npi,Dynamic energy,DE,Production|Electricity|Import,PJ/year,0,0,0
-remind,SSP2-Npi,Dynamic energy,DE,Production|Electricity|Lignite,PJ/year,0.209630087,0.209630087,0.209630087
-remind,SSP2-Npi,Dynamic energy,DE,Production|Electricity|Hard_coal,PJ/year,0.108177983,0.108177983,0.108177983
-remind,SSP2-Npi,Dynamic energy,DE,Production|Electricity|Natural_gas_CHP,PJ/year,0.109779638,0.109779638,0.109779638
+remind,SSP2-Npi,Dynamic energy,DE,Production|Electricity|Lignite,PJ/year,0.209630087,0.01637935,0
+remind,SSP2-Npi,Dynamic energy,DE,Production|Electricity|Hard_coal,PJ/year,0.108177983,0.027469624,0
+remind,SSP2-Npi,Dynamic energy,DE,Production|Electricity|Natural_gas_CHP,PJ/year,0.109779638,0.1742493598,0.15379765449
 remind,SSP2-Npi,Dynamic energy,DE,Production|Heat|Hydrogen_input,PJ/year,0.109779638,0.109779638,0.109779638
 remind,SSP2-Npi,Dynamic energy,DE,Transmission losses|Electricity|Medium to high,PJ/year,1,0.935,0.935
 remind,SSP2-Npi,Dynamic energy,DE,Distribution losses|Electricity|Low to medium,PJ/year,1,0.973,0.973
