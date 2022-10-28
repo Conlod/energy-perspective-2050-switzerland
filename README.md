@@ -146,11 +146,6 @@ Gaseous fuels
 
 
 
-Flow diagram
-------------
-
-![map electricity markets](assets/flow_diagram.png)
-
 How to use it?
 --------------
 
