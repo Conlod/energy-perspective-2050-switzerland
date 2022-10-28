@@ -200,8 +200,8 @@ production pathways:
       reference product: Hydrogen, gaseous, 25 bar
       exists in original database: True
     replaces: 
-      - name: market for biomethane
-        product: biomethane
+      - name: market for biomethane, high pressure
+        product: biomethane, high pressure
     replaces in:
       - name: heat production, biomethane, at boiler condensing modulating <100kW
     replacement ratio: 0.282225
