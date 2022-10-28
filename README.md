@@ -117,11 +117,11 @@ Electricity
 | Renewable, Biomass                 | heat and power co-generation, wood chips, 6667 kW               |
 | Renewable, Biogas                  | heat and power co-generation, biogas, gas engine                |
 
-Liquid fuels
+
+Heat
 ************
 
-
-| Technologies in EP2050+            | LCI datasets used                                               | Remarks                                                                                                             |
+| Technologies in DE_20_25_30            | LCI datasets used                                               | Remarks                                                                                                             |
 |------------------------------------|-----------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|
 | Gas                             | heat production, natural gas, at industrial furnace >100kW                                   | 
 | Oil                         | heat production, light fuel oil, at industrial furnace 1MW         
