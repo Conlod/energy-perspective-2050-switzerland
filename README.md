@@ -134,14 +134,10 @@ Liquid fuels
 
 
 
-Gaseous fuels
-*************
 
-
-| Technologies in EP2050+ | LCI datasets used                                                                                                                      | Remarks          |
+| Technologies in DE_20_25_30 | LCI datasets used                                                                                                                      | Remarks          |
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------------------|------------------|
-                                                                         | Provided by premise. |
-| Hydrogen, imported      | hydrogen production, electrolysis, 25 bar, imported, EP2050                                                                            | Provided by premise. |
+| Hydrogen, imported      | hydrogen production, electrolysis, 25 bar, imported EP2050                                                                            | Provided by premise. |
 
 
 
